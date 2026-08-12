@@ -68,7 +68,6 @@ int main(){
         int guess;
         cout<<"************************* Welcome to Kiddo Mode************************************* \n";
         int main_no = random(10);
-        cout<<main_no;
         cout<<"Enter Your Guess ";
         while (lives >0){
             cin>>guess;
