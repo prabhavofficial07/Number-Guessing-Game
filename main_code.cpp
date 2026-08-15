@@ -20,7 +20,7 @@ int main(){
 
 
     //hard mode block
-    if (gmode ==" H " or gmode == "h"){
+    if (gmode =="H" or gmode == "h"){
         int lives = 8;
         int guess;
         cout<<"************************* Welcome to Hard Mode************************************* \n";
@@ -63,7 +63,7 @@ int main(){
 
 
 
-    else if (gmode ==" K " or gmode == "k"){
+    else if (gmode =="K" or gmode == "k"){
         int lives = 3;
         int guess;
         cout<<"************************* Welcome to Kiddo Mode************************************* \n";
@@ -98,7 +98,7 @@ int main(){
 
 
 
-    else if (gmode ==" N " or gmode == "n"){
+    else if (gmode =="N" or gmode == "n"){
         int lives = 4;
         int guess;
         cout<<"************************* Welcome to Medium/Normal Mode************************************* \n";
